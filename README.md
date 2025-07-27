@@ -83,22 +83,6 @@ The solution is **containerized with Docker** for ease of deployment and testing
 ### ✅ Prerequisites
 - Docker installed on your system.
 
-### 🛠️ Build the Docker Image
-
-```bash
-docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
-🚀 Run the Solution
-bash
-Copy
-Edit
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  mysolutionname:somerandomidentifier
-Input PDFs go in the /input folder.
-
-JSON outputs are saved in /output.
 
 🧩 Models and Libraries Used
 PyMuPDF (fitz)
