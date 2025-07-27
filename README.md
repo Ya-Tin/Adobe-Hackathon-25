@@ -113,7 +113,3 @@ For efficient numerical computations during scoring and ranking.
 🔒 All components were built with performance, generality, and container-based reproducibility in mind, ensuring a robust submission for Adobe India Hackathon 2025.
 
 vbnet
-Copy
-Edit
-
-Let me know if you'd like a `README.md` file generated for download.
